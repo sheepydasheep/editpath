@@ -27,3 +27,8 @@ editpath command for editing the $PATH environment variable using the .bashrc fi
 -u  # update .bashrc with values from the list of custom $PATH additions
 
 -r  # reset command data (use if broken)
+
+
+## how to revert changes
+
+the setup script automatically makes a copy of your .bashrc file before modifying it, therefore, all you have to do is copy the file in the backup folder into the .bashrc file in your home directory
